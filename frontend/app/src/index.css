@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Home Page */
+
+.home-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.home-content {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  font-size: 20px;
+  color: #6c757d;
+  margin-bottom: 35px;
+}
+
+.home-buttons {
+  margin-bottom: 60px;
+}
+
+.home-button {
+  padding: 12px 28px;
+  font-size: 17px;
+  margin: 0 8px;
+}
+
+/* Feature Cards */
+
+.feature-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 34px;
+  }
+
+  .home-description {
+    font-size: 17px;
+  }
+
+  .home-buttons {
+    margin-bottom: 40px;
+  }
+
+  .feature-card {
+    margin-bottom: 20px;
+  }
+}
